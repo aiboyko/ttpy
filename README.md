@@ -17,6 +17,12 @@ Installation
 **It is recommended** that you use [Anaconda Python distribution](https://store.continuum.io/cshop/anaconda/) 
   which has MKL library built-in. Anaconda Python is used for the development  of ttpy.
 
+It is also needed to install fortran compiler to access TT-Cross related functions.
+
+```
+   sudo apt-get install gfortran
+```
+
 ## Pip install 
 Install dependencies (numpy and cython)
 ```
